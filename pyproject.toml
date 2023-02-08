@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "jubilant-octo-potato"
+version = "0.1.0"
+description = "jubilant-octo-potato"
+authors = ["Justin G Mitchell"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "jubilant_octo_potato"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
